@@ -31,7 +31,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.training_data_display">
+  <component name="RunManager" selected="Python.learn_method">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="ai-study" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -53,6 +53,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="learn_method" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ai-study" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../ai-study/machine_learning" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../ai-study/machine_learning/learn_method.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="neural_network_build_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ai-study" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -66,27 +87,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../ai-study/neural_network/neural_network_build_2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="neuron_bias" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ai-study" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../ai-study/neural_network" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../ai-study/neural_network/neuron_bias.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -203,11 +203,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.learn_method" />
         <item itemvalue="Python.training_data_display" />
         <item itemvalue="Python.reading_training_data" />
         <item itemvalue="Python.neural_network_build_2" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.neuron_bias" />
       </list>
     </recent_temporary>
   </component>
