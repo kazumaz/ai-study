@@ -1,0 +1,61 @@
+a = 7
+b = 3
+
+
+
+def add(c, d):
+    a = c + d
+    e = a +5
+    return e
+
+x = add(a, b)
+
+
+class Dog:
+    name = ""
+    def bark(self):
+        m = self.name + "Boe-wow!"
+        print (m)
+
+pochi = Dog()
+pochi.name = "pochi"
+pochi.bark()
+
+
+class Calcuration:
+    value = 0
+    def square(self):
+        s = self.value * self.value
+        return s
+
+a = Calcuration()
+b = Calcuration()
+c = Calcuration()
+
+calcs = [a,b,c]
+
+calcs = [Calcuration(),Calcuration(),Calcuration()]
+
+calcs[0].value = 3
+calcs[1].value = 5
+calcs[2].value = 7
+
+print (calcs[0].square())
+print (calcs[1].square())
+print (calcs[2].square())
+
+
+for c in calcs:
+    print (c.square())
+
+
+score_list = []
+score_list_file = open("test.txt")
+
+for score in score_list_file:
+    score = score.rstrip().split(",")
+    score_list.append([score[0],int(score[1])])
+
+score_list_file.close()
+
+print (score_list)

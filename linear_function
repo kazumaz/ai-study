@@ -1,0 +1,12 @@
+import matplotlib.pyplot as pit
+import numpy as np
+
+x = np.arange(0, 10, 0.1) #0~10まで0.1刻み
+print (x)
+
+# y = 2x + 1
+y = 2*x + 1
+print (y)
+
+pit.plot(x, y)
+pit.show()
