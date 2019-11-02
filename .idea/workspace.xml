@@ -31,7 +31,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.newron_sigmoid">
+  <component name="RunManager" selected="Python.neuron_bias">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="ai-study" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -53,7 +53,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="linear_function" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="neuron_bias" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ai-study" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -61,11 +61,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../ai-study/neural_network" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/linear_function" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../ai-study/neural_network/neuron_bias.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -74,7 +74,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="neuron_input" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="neuron_classification" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ai-study" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -82,11 +82,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/neural_network" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../ai-study/neural_network" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/neural_network/neuron_input" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../ai-study/neural_network/neuron_classification.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -95,7 +95,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="neuron_output" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="neuron_data_display" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ai-study" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -103,11 +103,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/neural_network" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../ai-study/neural_network" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/neural_network/neuron_output.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../ai-study/neural_network/neuron_data_display.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -116,7 +116,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="newron_sigmoid" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="neuron_weight" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ai-study" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -124,11 +124,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/neural_network" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../ai-study/neural_network" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/neural_network/newron_sigmoid.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../ai-study/neural_network/neuron_weight.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -137,7 +137,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="various_function" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="nwron_reading_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ai-study" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -145,11 +145,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../ai-study/neural_network" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/various_function.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../ai-study/neural_network/nwron_reading_data.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -203,11 +203,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.newron_sigmoid" />
-        <item itemvalue="Python.neuron_input" />
-        <item itemvalue="Python.neuron_output" />
-        <item itemvalue="Python.various_function" />
-        <item itemvalue="Python.linear_function" />
+        <item itemvalue="Python.neuron_bias" />
+        <item itemvalue="Python.neuron_classification" />
+        <item itemvalue="Python.neuron_data_display" />
+        <item itemvalue="Python.nwron_reading_data" />
+        <item itemvalue="Python.neuron_weight" />
       </list>
     </recent_temporary>
   </component>
