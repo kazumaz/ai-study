@@ -98,18 +98,23 @@ for line in training_data_file:
          int(line[2])])
 training_data_file.close()
 
-print(training_data)
-
 # ニューラルネットワークのインスタンス
 neural_network = NeuralNetwork()
 
 # 訓練用データの表示の準備
-position_tokyo_learning = [[],[]]
-position_kanagawa_learning = [[],[]]
+position_tokyo_learning = [[], []]
+position_kanagawa_learning = [[], []]
 for data in training_data:
     if data[2] < 0.5:
-        position_tokyo_learning[0].append(data[1]+refer_point_1)
+        position_tokyo_learning[0].append(data[1] + refer_point_1)
         position_tokyo_learning[1].append(data[0] + refer_point_0)
     else:
         position_kanagawa_learning[0].append(data[1] + refer_point_1)
         position_kanagawa_learning[1].append(data[0] + refer_point_0)
+
+# プロット
+plt.scatter(position_tokyo_learning[0], position_tokyo_learning[1], c="red", label="Tokyo", marker="+")
+plt.scatter(position_kanagawa_learning[0], position_kanagawa_learning[1], c="blue", label="Kanagawa", marker="+")
+
+plt.legend()  # 散布図の描画にはlegendの表記が必要
+plt.show()
