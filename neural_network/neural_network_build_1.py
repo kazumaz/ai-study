@@ -1,6 +1,7 @@
 import math
 import matplotlib.pyplot as plt
 
+# これは動かない。
 
 # シグモイド関数
 def sigmoid(a):
